@@ -27,8 +27,10 @@ def hello():
        print('Request for hello page received with no name or blank name -- redirecting')
        return redirect(url_for('index'))
 
+
 @app.route('/badiou')
 def salut():
     return "Salut a tous. C'est Badiou"
+
 if __name__ == '__main__':
    app.run()
