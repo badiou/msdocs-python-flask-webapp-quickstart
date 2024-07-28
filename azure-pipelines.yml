@@ -8,7 +8,8 @@ trigger:
 pool: myAgentPool
 steps:
 - script: echo Hello worl Badiou !
+  displayName: 'Run a one line script'
 - script: |
-  echo Add other tasks, test, and deploy to your project.
-  echo See https://aka.ms/yaml
-displayName: 'Run a muti-line script'
+    echo Add other tasks, test, and deploy to your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a muti-line script'
